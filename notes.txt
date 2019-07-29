@@ -1,0 +1,42 @@
+ -  whole application divide into 5 parts
+
+ 1) login
+
+ 2) dashboard
+
+ 3) about
+
+ 4) portfolio
+
+ 5) contact
+
+                    **** login module ****
+    - in this module we will consume following rest api call
+        => http://localhost:8080/login (POST)
+
+    - above rest api performs the authentication and return the 
+      token
+    - we will store above token in HTML5 Local Storage.
+    - after successful saving of token we will navigate to 
+      dashboard component by using SPA 
+
+**********************************
+miniproject
+          src
+            login 
+               Login.js
+*********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
